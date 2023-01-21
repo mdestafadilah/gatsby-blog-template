@@ -55,6 +55,7 @@ const config = {
   tagWidgetTitle: "Tags",
   latestPostsWidgetTitle: "Latest posts",
   linksWidgetTitle: "Links",
+  linksWidgetYears: "Years",
   // Use for Google custom search
   searchWidgetTitle: "Looking for?",
   searchWidgetPlaceHolder: "Enter keyword",
