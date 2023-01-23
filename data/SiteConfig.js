@@ -50,6 +50,11 @@ const config = {
   pathPrefixBlog: "/blog", // Prefix path for blog
   blogHeader: "Blog", // use in header of category-template page
   blogHasThumbnail: true,
+  // Use for years
+  pathPrefixYear: "/year", // Prefix path for year
+  yearHeader: "Years as", // use in header of year-template page
+  yearHasThumbnail: true,
+  defaultYearStart: 2023, // change your first start year
   // Use for widget
   categoryWidgetTitle: "Categories",
   tagWidgetTitle: "Tags",

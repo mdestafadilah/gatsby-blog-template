@@ -62,3 +62,13 @@ export const getTagCategoryList = (postList) => {
     categoryList: Array.from(categorySet),
   };
 };
+
+export const getYearsList = (postList) => {
+
+}
+
+export const getYearPath = (year) =>
+  useSlash(`${config.pathPrefixYear}/${slugify(year)}`);
+
+export const getYearPathWithoutTrailingSlash = (year) =>
+  `${config.pathPrefixYear}/${slugify(year)}`;
